@@ -1,0 +1,45 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Virtualenv
+venv/
+.env/
+
+# Django
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+staticfiles/
+media/
+
+# Environments
+.env
+*.env
+
+# Migrations (если вы не хотите сохранять локальные миграции)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VSCode и другие IDE
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+*.iws
+.idea/
+out/
+
+# macOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
